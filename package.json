@@ -46,6 +46,8 @@
     "start": "vite --open",
     "test": "react-scripts test",
     "lint": "eslint ."
+    "build:dev": "vite build --mode development"
+
   },
   "eslintConfig": {
     "extends": [
