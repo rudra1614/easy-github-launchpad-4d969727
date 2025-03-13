@@ -1,0 +1,271 @@
+:where(.css-dev-only-do-not-override-1w4v3hc).ant-select:not(
+    .ant-select-customize-input
+  )
+  .ant-select-selector {
+  border: none;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.ant-select-selection-item {
+  font-weight: 600 !important;
+}
+
+:where(.css-dev-only-do-not-override-1w4v3hc).ant-select-single
+  .ant-select-selector {
+  border-radius: 0px !important;
+}
+
+:where(.css-dev-only-do-not-override-1w4v3hc).ant-select .ant-select-arrow {
+  color: #0050c8;
+}
+
+//* CUSTOM STYLES
+.open-paused {
+}
+
+/* ===== Scrollbar CSS ===== */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #d9d9d9 #ffffff;
+}
+
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #d9d9d9;
+  border-radius: 0px;
+  border: 3px solid #ffffff;
+}
+
+.open-paused__scroll {
+  height: 600px;
+  overflow-y: auto;
+}
+
+.open-paused__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  //* Margin, paddings
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  border: 2px solid #eeeded;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #fcfcfc;
+  }
+}
+
+.job__title {
+  margin: 0;
+
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.job__createdTime {
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.selectedJobTime {
+  margin-left: 50px;
+}
+
+.open-paused__box {
+  display: flex;
+  align-items: center;
+
+  //* Margin, paddings
+  margin-left: 30px;
+  margin-right: 30px;
+
+  border: 1px solid #eeeded;
+  border-radius: 2px;
+
+  .open-paused__block:nth-child(1) {
+    background-color: #f3f3f3;
+  }
+}
+
+.open-paused__block:nth-child(1) {
+  display: block;
+}
+
+.open-paused__block {
+  display: flex;
+  justify-content: flex-end;
+
+  width: 150px;
+
+  //* Margin, paddings
+  //   margin-right: 20px;
+  padding: 4px;
+
+  & span {
+    font-weight: 800;
+  }
+}
+
+.open-paused__box-outer {
+  min-width: 120px;
+  width: 100%;
+  max-width: 120px;
+}
+
+.open-paused__block:nth-child(1) {
+  & span {
+    margin-right: 8px;
+  }
+}
+
+.open-paused__block:not(:first-child) {
+  & span {
+    // margin-left: 5px;
+    margin-right: 8px;
+  }
+}
+
+.open-paused__disQua {
+  margin-left: 5px;
+  margin-right: 8px;
+
+  & span {
+    margin-left: 5px;
+    margin-right: 8px;
+
+    font-weight: 800;
+  }
+}
+
+.open-paused__dotsIcon {
+  //* Margin, paddings
+  padding: 3px;
+
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f3f3f3;
+  }
+}
+
+.open-paused__nojob {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin-top: 200px;
+}
+
+.open-paused__sub {
+  //* Margin, paddings
+  margin-top: 16px;
+
+  font-weight: 800;
+}
+
+.modal-inner {
+  margin-top: 20px;
+}
+
+.modal-values {
+  // display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  // height: 80px;
+
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+
+  & span {
+    margin-right: 50px;
+  }
+  border: 1px solid #eeeded;
+}
+
+.modal-values__input {
+  width: 100%;
+
+  padding: 7px 20px;
+  margin-bottom: 20px;
+
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #000;
+
+  &:focus {
+    border: 2px solid #0050c8;
+  }
+}
+
+.modal-upper__title {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+.applicants {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  text-align: center;
+
+  & img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+.applicants {
+  padding: 10px;
+
+  &:hover {
+    background-color: #fcfcfc;
+  }
+}
+
+.applicants__info {
+  display: flex;
+  margin-right: 5px;
+}
+
+.applicants .applicants__name {
+  margin-left: 5px;
+  margin-right: 5px;
+
+  font-weight: 500;
+}
+
+.applicants__details {
+  margin-right: 5px;
+
+  font-weight: 500;
+}
